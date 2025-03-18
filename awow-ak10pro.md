@@ -3,7 +3,7 @@
 
 
 Case view<Br>
-<img src="[http://www.orangepi.org/img/zero2W/0911-plus5-img01.png](https://m.media-amazon.com/images/I/61jd7fMGXHL._AC_SX679_.jpg)" alt="Logo" width="700"> <Br>
+<img src="https://m.media-amazon.com/images/I/61jd7fMGXHL._AC_SX679_.jpg" alt="Logo" width="700"> <Br>
 
 [More details here]((https://www.amazon.de/AWOW-AK10-Desktop-Computer-Ethernet/dp/B0D7L6V82N?th=1))
 
