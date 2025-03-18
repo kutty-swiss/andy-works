@@ -1,6 +1,6 @@
 ## Devices
 2) Orange Pi <Br>
-<img src="http://www.orangepi.org/img/pi5-plus/pi5-plus-22.png" alt="Logo" width="300"> <Br>
+<img src="http://www.orangepi.org/img/pi5-plus/pi5-plus-22.png" alt="Logo" width="700"> <Br>
 
 [More details here](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
 
