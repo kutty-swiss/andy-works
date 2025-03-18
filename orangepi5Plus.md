@@ -48,19 +48,28 @@ Case view<Br>
       
  ## **Typical Usecases for me**
    a) Running AI Rockchip toolkit for running quantized versions of Large Language Models & Neural networks<Br>
-   b) Very capable and power efficient 
-   c) Jellyfin/ FFMpeg / GStreamer Transcoding
-   d) One of the daily driver / always running
+   b) Very capable and power efficient <Br>
+   c) Jellyfin/ FFMpeg / GStreamer Transcoding<Br>
+   d) One of the daily driver / always running<Br>
    e) Running FTP (Non-Secure version due to only intranet usage, Perfromance benefits due to lack of need for authentication)<Br>
    f) Casa-OS Docker Managmement<Br>
    g) Dashboards : Dashy, Heimdall, Next Cloud, Obsidian Notes <Br>
    h) TVheadend <Br>
-   g) Very compact with metal case
+   g) Very compact with metal case<Br>
+   h) SSD Support, Higher RAM ( useful for ai llm loading), Highspeed network<Br>
+   i) Samba File Sharing to all devices like Win / Lin PCs, Android Set-top-box, Mobile devices<Br>
  
    
   ## **Limitations**
-   a) ARM platform has less compared to Linux running in x64 based hardware
-   b) Limited software support from Vendor
-   c) Much less community support
+   a) ARM platform has less compared to Linux running in x64 based hardware<Br>
+   b) Limited software support from Vendor<Br>
+   c) Much less community support<Br>
 
-
+  ## **Extras**
+  Software installed : <Br>
+  Remote administration - Webmin, Cockpit for remote administration like shell executions <Br>
+  Browser - Opera, Firefox
+  Editors - Geany
+  SSH Gui - Snowflake
+  Utils - Stacer, Btop, Neofetch, locate, tree, ffmeg, gstreamer, ansible
+  
