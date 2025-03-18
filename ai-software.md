@@ -26,12 +26,12 @@ These tools help run and interact with large language models locally, giving you
 ## **2. AI File Management & Utilities**  
 These tools help manage and utilize AI-generated files, enhance workflows, and improve model efficiency.
 
-### **LM Studio**  
-- **Best Pick for AI Inference**: LM Studio is my go-to choice for **LLM inference** as it provides the easiest way to **download and run** large language models.  
-- **Efficient Resource Management**: After some learning, I figured out how to split the load between **CPU and GPU** using Vulkan, enhancing performance.  
-- **Favorite Feature - RAG**: LM Studio also integrates **RAG (Retrieval-Augmented Generation)**, making it incredibly useful for AI-based tasks.
+- **LM Studio**  
+- ***Best Pick for AI Inference**: LM Studio is my go-to choice for **LLM inference** as it provides the easiest way to **download and run** large language models.  
+- ***Efficient Resource Management**: After some learning, I figured out how to split the load between **CPU and GPU** using Vulkan, enhancing performance.  
+- ***Favorite Feature - RAG**: LM Studio also integrates **RAG (Retrieval-Augmented Generation)**, making it incredibly useful for AI-based tasks.
 
-<img src="https://lmstudio.ai/_next/static/media/lmstudio-app-logo.61cb7d80.webp" alt="LM Studio Logo" width="300" height="200">  
+<img src="https://lmstudio.ai/_next/static/media/lmstudio-app-logo.61cb7d80.webp" alt="LM Studio Logo" width="200" height="200">  
  
 
 - **[Lamafile](https://github.com/lamafile/lamafile)**  
