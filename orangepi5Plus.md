@@ -102,6 +102,7 @@ The Orange Pi features a **Rockchip RK3588 Processor** with a **3-Core NPU**, ea
 To check if the NPU is active and its load per core, run:  
 ```sh
 cat /sys/kernel/debug/rknpu/load
+```
 
 ## **Demo: RK3588 Running Stable Diffusion Variant**  
 
