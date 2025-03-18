@@ -24,12 +24,13 @@ graph TD;
 
 ### Dashboards:
 
-#### Example 1: Node Exporter Dashboard
-![Dashboard 1 Screenshot 1](images/Grafana-a1.png)
-![Dashboard 1 Screenshot 2](images/Grafana-a2.png)
+#### Example 1: Node Exporter Dashboard  
+![Node Exporter Dashboard - Screenshot 1](images/Grafana-a1.png)  
+![Node Exporter Dashboard - Screenshot 2](images/Grafana-a2.png)  
 
-#### Example 2: Dashboard 2
-![Dashboard 2 Screenshot 1](images/Grafana-b1.png)
-![Dashboard 2 Screenshot 2](images/Grafana-b2.png)
+#### Example 2: cAdvisor Dashboard  
+![cAdvisor Dashboard - Screenshot 1](images/Grafana-b1.png)  
+![cAdvisor Dashboard - Screenshot 2](images/Grafana-b2.png)  
+
 
 
