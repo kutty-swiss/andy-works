@@ -9,7 +9,7 @@ This is far superior compared to Ak10 n100 PC. Also has 64GB RAM and a strong pr
 [More details here](https://www.amazon.com/NUC12WSKi5-Computer-i5-1240P-Processor-Graphics/dp/B0BPCJ59BH?th=1)
 
 
-# ## **Processor**
+## **Processor**
 - **CPU**: Intel Core i5-1240P (12 cores, 16 threads)
   - Performance Cores: 4 (up to 4.4GHz)
   - Efficient Cores: 8 (up to 3.3GHz)
