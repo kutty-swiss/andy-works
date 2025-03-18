@@ -1,6 +1,6 @@
 ## Devices
 
-### 1️⃣ Raspberry Pi 4
+### Raspberry Pi 4
 - **Model**: Pi 4 | 4 GB RAM  
 - **GPU**: Very Low Powered  
 - **Usage Mode**: Headless  
