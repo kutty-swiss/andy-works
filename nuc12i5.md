@@ -4,8 +4,7 @@
 
 This is far superior compared to Ak10 n100 PC. Also has 64GB RAM and a strong processor (better CPU & GPU Specs). Most of the mid sized Large Language models are easily supported by it.
 
-Case view<Br>
-<img src="[https://m.media-amazon.com/images/I/61jd7fMGXHL._AC_SX679_.jpg](https://m.media-amazon.com/images/I/71NQkh6a2tL._AC_SL1500_.jpg)" alt="Logo" width="700"> <Br>
+<img src="https://m.media-amazon.com/images/I/71NQkh6a2tL._AC_SL1500_.jpg" alt="Logo" width="700"> <Br>
 
 [More details here]((https://www.amazon.com/NUC12WSKi5-Computer-i5-1240P-Processor-Graphics/dp/B0BPCJ59BH?th=1))
 
