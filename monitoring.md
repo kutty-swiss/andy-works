@@ -44,4 +44,11 @@ graph TD;
 ![cAdvisor Dashboard - Screenshot 2](images/Grafana-b2.png)  
 
 
+### **Alerting & channels**  
+- Content to be added
 
+### **Splunk**    
+- Content to be added
+
+### **AppDynamics**    
+- Content to be added
