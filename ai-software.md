@@ -25,7 +25,7 @@ These tools help run and interact with large language models locally, giving you
 These tools help manage and utilize AI-generated files, enhance workflows, and improve model efficiency.
 
 - **[Lamafile](https://github.com/lamafile/lamafile)**  
-  An AI-optimized single cross platform file  and management tool from mozilla, that streamlines the process of managing AI models and outputs.
+  An AI-optimized single cross platform file and management tool from mozilla, that streamlines the process of managing AI models and outputs.
 
   <img src="https://github.com/Mozilla-Ocho/llamafile/raw/main/llamafile/llamafile-640x640.png" width="200" height="200">  
 
@@ -75,4 +75,5 @@ Tools for running and experimenting with AI models, typically for developers loo
 - **[Intel AI Playground (Windows)](https://www.intel.com/content/www/us/en/artificial-intelligence/ai-playground.html)**  
   A Windows-based platform from Intel designed for experimenting with various AI models, optimized for Intel hardware.
 
-  <img src="https://www.intel.com/content/dam/www/intel-com/images/newsroom/news-illustration/ai-playground-news-illustration.png?8e9e3bc2b139b3b28a1f7f47d442bfa4" width="200" height="200">  
+    <img src="https://cdn.mos.cms.futurecdn.net/d8pmQi6W7Vfvp2w2EhkAtG-650-80.png.webp" width="200" height="200">  
+
