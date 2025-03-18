@@ -20,10 +20,9 @@ These tools help run and interact with large language models locally, giving you
   - Configurable model settings and parameters  
   - Extensible plugins and support for various AI models  
   - Real-time monitoring and control over AI workflows  
-- **Ideal For**: Users who prefer a **web-based UI** for managing AI inference tasks locally, with a focus on simplicity and expandability.  
+  - Ideal For: Users who prefer a **web-based UI** for managing AI inference tasks locally, with a focus on simplicity and expandability.  
 
 <img src="https://openwebui.com/favicon.png" width="200" height="200">
-
 ---
 
 - **[GPT4All](https://github.com/nomic-ai/gpt4all)**  
