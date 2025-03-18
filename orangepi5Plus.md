@@ -5,7 +5,7 @@ Board View (Top)<Br>
 <img src="http://www.orangepi.org/img/pi5-plus/pi5-plus-22.png" alt="Logo" width="700"> <Br>
 
 Case view<Br>
-<img src="http://www.orangepi.org/img/zero2W/0911-plus5-img01.png" alt="Logo" width="700"> <Br>
+<img src="https://m.media-amazon.com/images/I/71fNE6IX3iL._AC_UF894,1000_QL80_.jpg" alt="Logo" width="700"> <Br>
 
 [More details here](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
 
@@ -54,7 +54,7 @@ Case view<Br>
    e) Running FTP (Non-Secure version due to only intranet usage, Perfromance benefits due to lack of need for authentication)<Br>
    f) Casa-OS Docker Managmement<Br>
    g) Dashboards : Dashy, Heimdall, Next Cloud, Obsidian Notes <Br>
-   h) TVheadend <Br>
+   h) TVheadend. Very Powerful, possible to run even custom script while switching to a channel. <Br>
    g) Very compact with metal case<Br>
    h) SSD Support, Higher RAM ( useful for ai llm loading), Highspeed network<Br>
    i) Samba File Sharing to all devices like Win / Lin PCs, Android Set-top-box, Mobile devices<Br>
