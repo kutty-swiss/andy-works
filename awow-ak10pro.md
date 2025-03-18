@@ -15,7 +15,7 @@
   - 4x Gracemont Efficient Cores (up to 3.4GHz)
 
 ## **Memory**
-- **RAM**: 16 GB DDR5-4800MHz
+- **RAM**: 16 GB DDR4 (Upgradable)
 
 ## **Graphics**
 - **GPU**: Intel UHD Graphics
