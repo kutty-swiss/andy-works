@@ -1,33 +1,41 @@
 ## Devices
-1) Raspberry Pi <Br>
-   Model : Pi 4 | 4 GB RAM | Very Low Powered GPU | Headless | Very low energy consumption ~ 4 watts | <Br>
 
-   <img src="https://assets.raspberrypi.com/static/raspberry-pi-4-labelled-f5e5dcdf6a34223235f83261fa42d1e8.png">  
+### 1️⃣ Raspberry Pi 4
+- **Model**: Pi 4 | 4 GB RAM  
+- **GPU**: Very Low Powered  
+- **Form Factor**: Headless  
+- **Power Consumption**: Very low (~4 watts)  
 
+![Raspberry Pi 4](https://assets.raspberrypi.com/static/raspberry-pi-4-labelled-f5e5dcdf6a34223235f83261fa42d1e8.png)
 
-   
-   Typical Usecases for me : <Br>
-   a) Running File Sharing via Samba Share,<Br>
-   b) Running FTP (Non-Secure version due to only intranet usage, Perfromance benefits due to lack of need for authentication)<Br>
-   c) Casa-OS Docker Managmement<Br>
-   d) Dashboards : Dashy, Heimdall<Br>
-   e) Wallabag<Br>
-   
-   Limitations :
-   a) Low powered GPU, not suitable for smooth video playback, though Raspi has dual 4k<Br>
-   b) Network bandwidth is somehow limited<Br>
-   c) Cannot be used for Video Encoding and Decoding for live Streams, though it supports ffmpeg<Br>
-   d) Hardware acceleration works best for H.264 (1080p60), but other formats rely on software decoding.<Br>
-      ffmpeg & gstreamer struggle a lot.<Br>
-   e) Lots of available linux software are not available for arm architecture.<Br>
+---
 
-CasaOS on my Raspberr Pi <Br>
- ![code-tab](/images/Casaos-Rpi4.png)
+### 🔹 Typical Use Cases
+- 🗂 **File Sharing** via Samba Share  
+- 🔄 **FTP Server** (Non-secure, intranet only, better performance)  
+- 🐳 **CasaOS** for Docker Management  
+- 📊 **Dashboards**: Dashy, Heimdall  
+- 📚 **Bookmark Manager**: Wallabag  
 
-Wallabag Bookmark on my Rpi4 <Br>
- ![code-tab](/images/Wallabag-rpi4.png)
- 
-Dashy Dashbaord on my Rpi4 <Br>
- ![code-tab](/images/Dashy-Rpi4.png)
+---
 
+### ⚠️ Limitations
+1. 🖥 **Low-powered GPU**: Not suitable for smooth video playback despite dual 4K output  
+2. 🌐 **Network Bandwidth**: Somewhat limited  
+3. 🎥 **No Video Encoding/Decoding for Live Streams** (ffmpeg support, but limited hardware acceleration)  
+4. 🔄 **Hardware Acceleration**:  
+   - Works best for **H.264 (1080p60)**  
+   - Other formats rely on **software decoding**, causing performance issues  
+   - **ffmpeg & gstreamer** struggle with non-H.264 formats  
+5. 🖥 **Software Availability**: Many Linux applications lack ARM architecture support  
 
+---
+
+## 📌 CasaOS on Raspberry Pi 4  
+![CasaOS](/images/Casaos-Rpi4.png)
+
+## 📌 Wallabag Bookmark on Raspberry Pi 4  
+![Wallabag](/images/Wallabag-rpi4.png)
+
+## 📌 Dashy Dashboard on Raspberry Pi 4  
+![Dashy](/images/Dashy-Rpi4.png)
