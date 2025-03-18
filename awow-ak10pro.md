@@ -113,34 +113,40 @@ cmake .. \
 
 ## **Extras**  
 
-### Software Installed  
-- **Remote Administration**:  
-  - Webmin  
-  - Cockpit (for remote administration like shell executions)
-  - Portainer & Casa OS ( For managing docker containers like Grafana, Wallabag, Dashy etc )
+## **🛠️ Software Installed**  
 
-- **Browser**:  
-  - Opera  
-  - Firefox
-  - Google Chrome
-  - MS Edge
-    
-- **Editors**:  
-  - Geany
-  - VS Codium
+For a detailed breakdown of AI-related software, please refer to: 
+📄 [**AI Software Details – aw-software.md**](aw-software.md)  
 
-- **SSH GUI**:  
-  - Snowflake (Supports both SSH & FTP in one software)  
+## **🖥️ Installed Software**  
 
-- **Utilities**:  
-  - Stacer  
-  - Btop  
-  - Neofetch  
-  - locate  
-  - tree  
-  - ffmpeg  
-  - gstreamer  
-  - ansible  
+### **🛠️ Remote Administration**  
+- **Webmin** – Web-based system administration  
+- **Cockpit** – Remote shell execution & system management  
+- **Portainer & CasaOS** – Docker container management (Grafana, Wallabag, Dashy, etc.)  
+
+### **🌐 Web Browsers**  
+- **Opera**  
+- **Firefox**  
+- **Google Chrome**  
+- **Microsoft Edge**  
+
+### **📝 Code & Text Editors**  
+- **Geany** – Lightweight code editor  
+- **VS Codium** – Open-source alternative to VS Code  
+
+### **🔐 SSH & File Transfer**  
+- **Snowflake** – Unified SSH & FTP client  
+
+### **🧰 System Utilities**  
+- **Stacer** – System monitoring & optimization  
+- **Btop** – Advanced resource monitoring  
+- **Neofetch** – System information display  
+- **Locate & Tree** – File search & directory visualization  
+- **FFmpeg & GStreamer** – Media processing & streaming tools  
+- **Ansible** – Automation & configuration management  
+- **Tesseract OCR** – Optical character recognition (OCR) engine  
+- **EasyOCR** – AI-powered OCR tool  
 
 ### Very important Tweak
 Like in Windows task manager, linux does not have a proper GPU monitor for non-nvidia cards. After a lot of struggle i managed to get a working version of a tool "Mission Center"
