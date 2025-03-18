@@ -43,7 +43,6 @@ _Selfhosting on linux"! :wave:_
 **What is special?**: Without any arguements, i acknowledge the learning i could take from Aritificial Intelligence.
 In my case I was able to learn & meet my objectives with AI quickly. This helped me to reduce time spent for fixing stuff.
 
-   ![code-tab](/images/code-tab.png)
 
 Usecases:
 1.Writing Shell scripts for OS Automation
