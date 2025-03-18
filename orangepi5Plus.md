@@ -1,6 +1,8 @@
 ## Devices
 2) Orange Pi <Br>
 
+ [More details here](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
+
 ## **Processor**
 - **CPU**: Rockchip RK3588 (8-core, 64-bit)  
   - 4x Cortex-A76 (up to 2.4GHz)  
@@ -8,7 +10,6 @@
 
 ## **Memory**
 - **RAM**:  16 GB
-  - Available in 4GB, 8GB, 16GB, and 32GB LPDDR4/4x configurations  
 
 ## **Graphics**
 - **GPU**: ARM Mali-G610 MP4  
