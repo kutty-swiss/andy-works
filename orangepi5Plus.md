@@ -1,6 +1,11 @@
 ## Devices
 2) Orange Pi <Br>
+
+Board View (Top)<Br>
 <img src="http://www.orangepi.org/img/pi5-plus/pi5-plus-22.png" alt="Logo" width="700"> <Br>
+
+Case view<Br>
+<img src="http://www.orangepi.org/img/zero2W/0911-plus5-img01.png" alt="Logo" width="700"> <Br>
 
 [More details here](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
 
@@ -41,24 +46,21 @@
   - Debian 11  
   - Ubuntu 24.04  (My preferred Light weight OS)
       
-   Typical Usecases for me : <Br>
-   a) Running File Sharing via Samba Share,<Br>
-   b) Running FTP (Non-Secure version due to only intranet usage, Perfromance benefits due to lack of need for authentication)<Br>
-   c) Casa-OS Docker Managmement<Br>
-   d) Dashboards : Dashy, Heimdall<Br>
-   e) Wallabag<Br>
+ ## **Typical Usecases for me**
+   a) Running AI Rockchip toolkit for running quantized versions of Large Language Models & Neural networks<Br>
+   b) Very capable and power efficient 
+   c) Jellyfin/ FFMpeg / GStreamer Transcoding
+   d) One of the daily driver / always running
+   e) Running FTP (Non-Secure version due to only intranet usage, Perfromance benefits due to lack of need for authentication)<Br>
+   f) Casa-OS Docker Managmement<Br>
+   g) Dashboards : Dashy, Heimdall, Next Cloud, Obsidian Notes <Br>
+   h) TVheadend <Br>
+   g) Very compact with metal case
+ 
    
-   Limitations :
-   a) Low powered GPU, not suitable for smooth video playback, though Raspi has dual 4k<Br>
-   b) Network bandwidth is somehow limited<Br>
-   c) Cannot be used for Video Encoding and Decoding for live Streams, though it supports ffmpeg<Br>
-   d) Hardware acceleration works best for H.264 (1080p60), but other formats rely on software decoding.<Br>
-      ffmpeg & gstreamer struggle a lot.<Br>
-   e) Lots of available linux software are not available for arm architecture.<Br>
-
-CasaOS on my Raspberr Pi <Br>
- ![code-tab](/images/Casaos-Rpi4.png) <Br>
-
-
+  ## **Limitations**
+   a) ARM platform has less compared to Linux running in x64 based hardware
+   b) Limited software support from Vendor
+   c) Much less community support
 
 
