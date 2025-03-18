@@ -17,7 +17,8 @@
       ffmpeg & gstreamer struggle a lot.
    e) Lots of available linux software are not available for arm architecture.
    
-
+ ![code-tab](/images/Casaos-Rpi4.png)
+ 
 2) Orange Pi 5 Plus with 16 GB RAM, 6 TOPS NPU Processor with really good hardware specs
 4) AWOW AK-10 Pro
 5) Intel Nuc 12 i5 with 32 GB RAM ( Self configured to complete PC from barebone)
