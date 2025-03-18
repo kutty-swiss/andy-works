@@ -13,6 +13,19 @@ These tools help run and interact with large language models locally, giving you
 
   <img src="https://www.linuxtricks.fr/upload/ollama-logo.png" width="400" height="150">  
 
+### **[Open-WebUI](https://github.com/Open-WebUI/Open-WebUI)**  
+- **Open-WebUI** is a simple, extensible, and easy-to-use interface for running **LLM inference**. It provides a clean and intuitive web interface to manage models and their configurations.  
+- **Key Features**:  
+  - Easy installation and setup of **local LLMs**  
+  - Configurable model settings and parameters  
+  - Extensible plugins and support for various AI models  
+  - Real-time monitoring and control over AI workflows  
+- **Ideal For**: Users who prefer a **web-based UI** for managing AI inference tasks locally, with a focus on simplicity and expandability.  
+
+![Open-WebUI Logo](https://raw.githubusercontent.com/Open-WebUI/Open-WebUI/main/logo.png)
+
+---
+
 - **[GPT4All](https://github.com/nomic-ai/gpt4all)**  
   A community-driven project providing a collection of LLMs, particularly optimized for running on local hardware.
 
@@ -33,7 +46,6 @@ These tools help manage and utilize AI-generated files, enhance workflows, and i
 
 <img src="https://lmstudio.ai/_next/static/media/lmstudio-app-logo.61cb7d80.webp" alt="LM Studio Logo" width="200" height="200">  
  
-
 - **[Lamafile](https://github.com/lamafile/lamafile)**  
   An AI-optimized single cross platform file and management tool from mozilla, that streamlines the process of managing AI models and outputs.
 
