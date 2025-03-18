@@ -1,6 +1,10 @@
 ## Devices
 1) Raspberry Pi <Br>
-   Model : Pi 4 | 4 GB RAM | Very Low Powered GPU | Headless | Very low power consumption | <Br>
+   Model : Pi 4 | 4 GB RAM | Very Low Powered GPU | Headless | Very low energy consumption ~ 4 watts | <Br>
+
+   <img src="https://assets.raspberrypi.com/static/raspberry-pi-4-labelled-f5e5dcdf6a34223235f83261fa42d1e8.png">  
+
+
    
    Typical Usecases for me : <Br>
    a) Running File Sharing via Samba Share,<Br>
