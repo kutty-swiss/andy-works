@@ -7,9 +7,11 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Introduction to GitHub
+# Introduction
 
-_Get started using GitHub in less than an hour._
+_I am a passionate software engineer, with a strong motivation of self learning. Thanks to the affordable, power efficient hardware with which i could learn and practice:
+1. Self Hosting on linux
+2. Artificial Intelligence_
 
 </header>
 
@@ -20,44 +22,33 @@ _Get started using GitHub in less than an hour._
   Link to docs.github.com for further explanations.
   Encourage users to open new tabs for steps!
 -->
+## Devices used
+1) Raspberry Pi
+2) Orange Pi 5 Plus with 16 GB RAM, 6 TOPS NPU Processor with really good hardware specs
+3) AWOW AK-10 Pro
+4) Intel Nuc 12 i5 with 32 GB RAM ( Self configured to complete PC from barebone)
 
-## Step 1: Create a branch
+   Each of the above devices have their own advantages.
 
-_Welcome to "Introduction to GitHub"! :wave:_
+## Self Hosting
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+_Selfhosting on linux"! :wave:_
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+**Why self hosting?**: I started with selfhosting after fiddling with Raspberry Pi4. Validated a number of Versions of Raspberry Pi4
+<br>: Muliboot OS Loaders: Noobs, Berry Boot
+<br>: Operating Systems: Raspbian, Debian, Ubuntu, Dietpi, Kali Linux, Gentoo. Each of these OS has some features and with resource utilization and ease of use, finally settled with Dietpi. This is one of my nodes where multiple servers are running.
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
+## Artificial Intelligence
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
-
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
-
-![profile-readme-example](/images/profile-readme-example.png)
-
-### :keyboard: Activity: Your first branch
-
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+**What is special?**: Without any arguements, i acknowledge the learning i could take from Aritificial Intelligence.
+In my case I was able to learn & meet my objectives with AI quickly. This helped me to reduce time spent for fixing stuff.
 
    ![code-tab](/images/code-tab.png)
 
-3. Click on the **main** branch drop-down.
-
-   ![main-branch-dropdown](/images/main-branch-dropdown.png)
-
-4. In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
-5. Click **Create branch: my-first-branch** to create your branch.
-
-   ![create-branch-button](/images/create-branch-button.png)
-
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
-
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+Usecases:
+1.Writing Shell scripts for OS Automation
+2.Yaml file for deploying docker containers
+3.Setting up & automatically configuring multiple servers
 
 <footer>
 
