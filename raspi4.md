@@ -3,7 +3,7 @@
 ### 1️⃣ Raspberry Pi 4
 - **Model**: Pi 4 | 4 GB RAM  
 - **GPU**: Very Low Powered  
-- **Form Factor**: Headless  
+- **Usage Mode**: Headless  
 - **Power Consumption**: Very low (~4 watts)  
 
 ![Raspberry Pi 4](https://assets.raspberrypi.com/static/raspberry-pi-4-labelled-f5e5dcdf6a34223235f83261fa42d1e8.png)
@@ -11,7 +11,8 @@
 ---
 
 ### 🔹 Typical Use Cases
-- 🗂 **File Sharing** via Samba Share  
+- 🗂 **File Sharing** via Samba Share
+- 🗂 **File Sharing** via nginx through browser 
 - 🔄 **FTP Server** (Non-secure, intranet only, better performance)  
 - 🐳 **CasaOS** for Docker Management  
 - 📊 **Dashboards**: Dashy, Heimdall  
