@@ -110,11 +110,35 @@ Case view<Br>
    i) AI Optimized intel IPEX LLM ( But not on par with custom compiled Llama.cpp)
    
 
-  ## **Extras**
-  Software installed : <Br>
-  Remote administration - Webmin, Cockpit for remote administration like shell executions <Br>
-  Browser - Opera, Firefox
-  Editors - Geany
-  SSH Gui - Snowflake ( Supports both SSH & FTP in one software)
-  Utils - Stacer, Btop, Neofetch, locate, tree, ffmeg, gstreamer, ansible
+## **Extras**  
+
+### Software Installed  
+- **Remote Administration**:  
+  - Webmin  
+  - Cockpit (for remote administration like shell executions)
+  - Portainer & Casa OS ( For managing docker containers like Grafana, Wallabag, Dashy etc )
+
+- **Browser**:  
+  - Opera  
+  - Firefox
+  - Google Chrome
+  - MS Edge
+    
+- **Editors**:  
+  - Geany
+  - VS Codium
+
+- **SSH GUI**:  
+  - Snowflake (Supports both SSH & FTP in one software)  
+
+- **Utilities**:  
+  - Stacer  
+  - Btop  
+  - Neofetch  
+  - locate  
+  - tree  
+  - ffmpeg  
+  - gstreamer  
+  - ansible  
+
   
