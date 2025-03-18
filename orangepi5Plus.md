@@ -1,11 +1,8 @@
 ## Devices
 2) Orange Pi <Br>
-![Orange Pi 5 Plus](http://www.orangepi.org/img/pi5-plus/pi5-plus-22.png)) <Br>
+<img src="http://www.orangepi.org/img/pi5-plus/pi5-plus-22.png" alt="Logo" width="300"> <Br>
 
-<img src="[images/logo.png](http://www.orangepi.org/img/pi5-plus/pi5-plus-22.png)" alt="Logo" width="300">
-
-
- [More details here](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
+[More details here](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
 
 ## **Processor**
 - **CPU**: Rockchip RK3588 (8-core, 64-bit)  
