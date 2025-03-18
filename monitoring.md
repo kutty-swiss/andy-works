@@ -12,6 +12,16 @@ Observability is crucial for ensuring the health and performance of self-hosted 
 ## Purpose of the Tools:
 These tools work together to provide a comprehensive observability stack that helps monitor and visualize the health of your self-hosted environment.
 
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ```mermaid
 graph TD;
     A[System Metrics] -->|Collected By| B[Node Exporter];
@@ -20,7 +30,7 @@ graph TD;
     C -->|Sends Data To| D[Prometheus];
     D -->|Data Queried By| E[Grafana];
     E -->|Displays Visualizations| F[User Dashboards];
-
+```
 
 ### Dashboards:
 
