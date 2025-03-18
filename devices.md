@@ -16,11 +16,15 @@
    d) Hardware acceleration works best for H.264 (1080p60), but other formats rely on software decoding.<Br>
       ffmpeg & gstreamer struggle a lot.<Br>
    e) Lots of available linux software are not available for arm architecture.<Br>
-   
- ![code-tab](/images/Casaos-Rpi4.png)
- 
-2) Orange Pi 5 Plus with 16 GB RAM, 6 TOPS NPU Processor with really good hardware specs<Br>
-4) AWOW AK-10 Pro<Br>
-5) Intel Nuc 12 i5 with 32 GB RAM ( Self configured to complete PC from barebone)<Br>
 
-   Each of the above devices have their own advantages.<Br>
+CasaOS on my Raspberr Pi <Br>
+ ![code-tab](/images/Casaos-Rpi4.png)
+
+Wallabag Bookmark on my Rpi4 <Br>
+ ![code-tab](/images/Wallabag-rpi4.png)
+ 
+Dashy Dashbaord on my Rpi4 <Br>
+ ![code-tab](/images/Dashy-Rpi4.png)
+
+
+
