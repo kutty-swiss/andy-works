@@ -87,3 +87,5 @@ Tools for running and experimenting with AI models, typically for developers loo
 
     <img src="https://cdn.mos.cms.futurecdn.net/d8pmQi6W7Vfvp2w2EhkAtG-650-80.png.webp" width="400" height="200">  
 
+## **5. Key learnings**
+  Large language models consume lot of space. So i decided to have them in a common shared folder. Based on the tool type, i had to set the parameters in yaml files, export system variables or create symlinks.
