@@ -22,7 +22,7 @@ These tools help run and interact with large language models locally, giving you
   - Real-time monitoring and control over AI workflows  
 - **Ideal For**: Users who prefer a **web-based UI** for managing AI inference tasks locally, with a focus on simplicity and expandability.  
 
-![Open-WebUI Logo](https://openwebui.com/favicon.png)
+<img src="https://openwebui.com/favicon.png" width="200" height="200">
 
 ---
 
