@@ -9,7 +9,7 @@ These tools help run and interact with large language models locally, giving you
 - **[Ollama](https://ollama.com)**  
   Provides easy-to-use local inference for large language models with a focus on simplicity and performance.
 
-  <img src="https://ollama.com/public/ollama.png" width="200" height="200">  
+  <img src="https://www.linuxtricks.fr/upload/ollama-logo.png" width="300" height="200">  
 
 - **[GPT4All](https://github.com/nomic-ai/gpt4all)**  
   A community-driven project providing a collection of LLMs, particularly optimized for running on local hardware.
