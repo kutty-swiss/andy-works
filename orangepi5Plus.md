@@ -1,6 +1,6 @@
 # **Devices**  
 
-## **2) Orange Pi**  
+## **Orange Pi**  
 
 ### **Board View (Top)**  
 <img src="https://m.media-amazon.com/images/I/71fNE6IX3iL._AC_UF894,1000_QL80_.jpg" alt="Orange Pi Board" width="700">  
