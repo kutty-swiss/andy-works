@@ -32,7 +32,7 @@ These tools help manage and utilize AI-generated files, enhance workflows, and i
 - **[PyGPT](https://github.com/pytorch/pytorch)**  
   A lightweight implementation of GPT models in Python, allowing quick deployment and testing on local systems.
 
-  <img src="https://pygpt.net/assets/logo_pygpt_v2.png?v=20240218" width="200" height="200">  
+  <img src="https://pygpt.net/assets/logo_pygpt_v2.png?v=20240218" width="300" height="200">  
 
 - **[Local AI](https://localai.com)**  
   A platform for running AI models locally, allowing users to perform inference without relying on external cloud services.  
@@ -75,5 +75,5 @@ Tools for running and experimenting with AI models, typically for developers loo
 - **[Intel AI Playground (Windows)](https://www.intel.com/content/www/us/en/artificial-intelligence/ai-playground.html)**  
   A Windows-based platform from Intel designed for experimenting with various AI models, optimized for Intel hardware.
 
-    <img src="https://cdn.mos.cms.futurecdn.net/d8pmQi6W7Vfvp2w2EhkAtG-650-80.png.webp" width="200" height="200">  
+    <img src="https://cdn.mos.cms.futurecdn.net/d8pmQi6W7Vfvp2w2EhkAtG-650-80.png.webp" width="400" height="200">  
 
