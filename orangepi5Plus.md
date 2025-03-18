@@ -2,10 +2,10 @@
 2) Orange Pi <Br>
 
 Board View (Top)<Br>
-<img src="http://www.orangepi.org/img/pi5-plus/pi5-plus-22.png" alt="Logo" width="700"> <Br>
+<img src="https://m.media-amazon.com/images/I/71fNE6IX3iL._AC_UF894,1000_QL80_.jpg" alt="Logo" width="700"> <Br>
 
 Case view<Br>
-<img src="https://m.media-amazon.com/images/I/71fNE6IX3iL._AC_UF894,1000_QL80_.jpg" alt="Logo" width="700"> <Br>
+<img src="https://www.tinytronics.nl/image/cache/catalog/products_2024/orange-pi-5-plus-metal-case-with-antennas-model-600x600w.jpg" alt="Logo" > <Br>
 
 [More details here](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
 
