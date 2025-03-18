@@ -23,7 +23,6 @@ These tools help run and interact with large language models locally, giving you
   - Ideal For: Users who prefer a **web-based UI** for managing AI inference tasks locally, with a focus on simplicity and expandability.  
 
 <img src="https://openwebui.com/favicon.png" width="200" height="200">
----
 
 - **[GPT4All](https://github.com/nomic-ai/gpt4all)**  
   A community-driven project providing a collection of LLMs, particularly optimized for running on local hardware.
