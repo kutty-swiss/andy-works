@@ -6,6 +6,8 @@ These tools help run and interact with large language models locally, giving you
 - **[llama.cpp](https://github.com/ggerganov/llama.cpp)**  
   A lightweight, high-performance implementation of LLaMA models, designed to run efficiently on local hardware.
 
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Llama1-logo.png/220px-Llama1-logo.png" width="400" height="150">  
+
 - **[Ollama](https://ollama.com)**  
   Provides easy-to-use local inference for large language models with a focus on simplicity and performance.
 
