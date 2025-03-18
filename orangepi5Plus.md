@@ -65,7 +65,8 @@ Case view<Br>
 - **ARM Platform Constraints:** Limited compared to x64-based Linux systems.  
 - **Vendor Support:** Software support from the vendor is minimal.  
 - **Community Support:** Much smaller community backing compared to mainstream x64 platforms.  
-
+- **Hardware Constraints:** Sealed & Single channel RAM, allowing no memory expansion / limits operational speed for certain tasks.
+- 
 ## **Extras**  
 
 ### **Installed Software**  
