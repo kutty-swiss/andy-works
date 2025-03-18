@@ -46,30 +46,48 @@ Case view<Br>
   - Debian 11  
   - Ubuntu 24.04  (My preferred Light weight OS)
       
- ## **Typical Usecases for me**
-   a) Running AI Rockchip toolkit for running quantized versions of Large Language Models & Neural networks<Br>
-   b) Very capable and power efficient <Br>
-   c) Jellyfin/ FFMpeg / GStreamer Transcoding<Br>
-   d) One of the daily driver / always running<Br>
-   e) Running FTP (Non-Secure version due to only intranet usage, Perfromance benefits due to lack of need for authentication)<Br>
-   f) Casa-OS Docker Managmement<Br>
-   g) Dashboards : Dashy, Heimdall, Next Cloud, Obsidian Notes <Br>
-   h) TVheadend. Very Powerful, possible to run even custom script while switching to a channel. <Br>
-   g) Very compact with metal case<Br>
-   h) SSD Support, Higher RAM ( useful for ai llm loading), Highspeed network<Br>
-   i) Samba File Sharing to all devices like Win / Lin PCs, Android Set-top-box, Mobile devices<Br>
- 
-   
-  ## **Limitations**
-   a) ARM platform has less compared to Linux running in x64 based hardware<Br>
-   b) Limited software support from Vendor<Br>
-   c) Much less community support<Br>
+## **Typical Use Cases for Me**  
 
-  ## **Extras**
-  Software installed : <Br>
-  Remote administration - Webmin, Cockpit for remote administration like shell executions <Br>
-  Browser - Opera, Firefox
-  Editors - Geany
-  SSH Gui - Snowflake
-  Utils - Stacer, Btop, Neofetch, locate, tree, ffmeg, gstreamer, ansible
+- **AI & Machine Learning:** Running AI Rockchip toolkit for executing quantized versions of Large Language Models (LLMs) & Neural Networks.  
+- **Performance & Efficiency:** Highly capable and power-efficient system.  
+- **Media Transcoding:** Supports Jellyfin, FFmpeg, and GStreamer for media transcoding.  
+- **Daily Driver:** Always running and serves as one of my primary systems.  
+- **FTP Server:** Runs a non-secure FTP version (for intranet use only) to maximize performance by avoiding authentication overhead.  
+- **Docker Management:** CasaOS for efficient containerized application management.  
+- **Dashboards & Productivity:** Runs Dashy, Heimdall, Nextcloud, and Obsidian Notes for organization and quick access.  
+- **TV Streaming:** TVHeadend support, allowing advanced configurations, including custom scripts for channel switching.  
+- **Compact & Durable:** Small form factor with a metal case for durability.  
+- **Hardware Capabilities:** Supports SSDs, high RAM (useful for AI/LLM loading), and high-speed networking.  
+- **File Sharing:** Samba-based file sharing across multiple devices, including Windows, Linux PCs, Android set-top boxes, and mobile devices.  
+
+## **Limitations**  
+
+- **ARM Platform Constraints:** Limited compared to x64-based Linux systems.  
+- **Vendor Support:** Software support from the vendor is minimal.  
+- **Community Support:** Much smaller community backing compared to mainstream x64 platforms.  
+
+## **Extras**  
+
+### **Installed Software**  
+
+- **Remote Administration:**  
+  - Webmin, Cockpit – For remote management, including shell execution.  
+
+- **Web Browsers:**  
+  - Opera, Firefox  
+
+- **Code & Text Editors:**  
+  - Geany  
+
+- **SSH GUI:**  
+  - Snowflake  
+
+- **System Utilities:**  
+  - Stacer – System monitoring and optimization  
+  - Btop – Advanced resource monitor  
+  - Neofetch – System information display  
+  - Locate & Tree – File search and directory visualization  
+  - FFmpeg & GStreamer – Media processing and streaming tools  
+  - Ansible – Automation and configuration management  
+
   
