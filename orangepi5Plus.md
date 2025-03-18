@@ -92,12 +92,9 @@ The Orange Pi features a **Rockchip RK3588 Processor** with a **3-Core NPU**, ea
 - **RKLLM** – Used for inferencing/running LLMs on Rockchip.  (Based on C++)
   ![RKLLM](https://github.com/user-attachments/assets/9ed9d0ba-c95a-4890-b77d-a39fea0fb864)  
 
-### **LLM Inference with Python & Web Interface**  
-
-RK3588 supports **LLM inference** using **Python** with a web-based GUI powered by **Gradio** or **Flask**. This enables easy interaction with models via a browser-friendly interface.  
-
-🔗 [**RKLLM Server Demo – GitHub Repository**](https://github.com/airockchip/rknn-llm/blob/main/examples/rkllm_server_demo/README.md)  
-
+- **RKLLM** – LLM Inference with Python & Web Interface**  
+  RK3588 supports **LLM inference** using **Python** with a web-based GUI powered by **Gradio** or **Flask**. This enables easy interaction with models via a browser-friendly interface.  
+  🔗 [**RKLLM Server Demo – GitHub Repository**](https://github.com/airockchip/rknn-llm/blob/main/examples/rkllm_server_demo/README.md)  
 
 - **RKNN Model Zoo** – Deployment examples for neural network models like object detection, image classification, etc.  
   🔗 [GitHub Repository](https://github.com/airockchip/rknn_model_zoo)  
@@ -105,14 +102,14 @@ RK3588 supports **LLM inference** using **Python** with a web-based GUI powered 
 - **EZRKNPU Toolkit** – Improved version of the toolkit, though still requires manual adaptations.  
   🔗 [GitHub Repository](https://github.com/Pelochus/ezrknpu)  
 
+
 ### **Monitoring NPU Usage**  
 To check if the NPU is active and its load per core, run:  
 ```sh
 cat /sys/kernel/debug/rknpu/load
 ```
 
+
 ## **Demo: RK3588 Running Stable Diffusion Variant**  
-
 A demonstration of the RK3588 running an **NPU-accelerated Stable Diffusion 1.5 LCM** on a **$130 SBC**, achieving **30 iterations per second**.  
-
 🔗 [View the demo on Reddit](https://www.reddit.com/r/StableDiffusion/comments/1gxbwp1/npu_accelerated_sd15_lcm_on_130_rk3588_sbc_30/?rdt=55368)  
