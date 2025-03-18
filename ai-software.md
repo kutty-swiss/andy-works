@@ -13,8 +13,8 @@ These tools help run and interact with large language models locally, giving you
 
   <img src="https://www.linuxtricks.fr/upload/ollama-logo.png" width="400" height="150">  
 
-### **[Open-WebUI](https://github.com/Open-WebUI/Open-WebUI)**  
-- **Open-WebUI** is a simple, extensible, and easy-to-use interface for running **LLM inference**. It provides a clean and intuitive web interface to manage models and their configurations.  
+- **[Open-WebUI](https://github.com/Open-WebUI/Open-WebUI)**  
+- Open-WebUI** is a simple, extensible, and easy-to-use interface for running **LLM inference**. It provides a clean and intuitive web interface to manage models and their configurations.  
 - **Key Features**:  
   - Easy installation and setup of **local LLMs**  
   - Configurable model settings and parameters  
@@ -22,7 +22,7 @@ These tools help run and interact with large language models locally, giving you
   - Real-time monitoring and control over AI workflows  
 - **Ideal For**: Users who prefer a **web-based UI** for managing AI inference tasks locally, with a focus on simplicity and expandability.  
 
-![Open-WebUI Logo](https://raw.githubusercontent.com/Open-WebUI/Open-WebUI/main/logo.png)
+![Open-WebUI Logo](https://openwebui.com/favicon.png)
 
 ---
 
