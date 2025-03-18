@@ -1,60 +1,47 @@
-<header>
+# Introduction  
+I am a passionate software engineer, with a strong motivation for self-learning. Thanks to affordable, power-efficient hardware, I could learn and practice:  
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+- **Self-Hosting on Linux**  
+- **Artificial Intelligence**  
 
-# Introduction
+## Devices Used  
+- **Raspberry Pi**  
+- **Orange Pi 5 Plus** (16 GB RAM, 6 TOPS NPU Processor with really good hardware specs)  
+- **AWOW AK-10 Pro**  
+- **Intel NUC 12 i5** (32 GB RAM, self-configured to a complete PC from barebone)  
 
-_I am a passionate software engineer, with a strong motivation of self learning. Thanks to the affordable, power efficient hardware with which i could learn and practice:
-1. Self Hosting on linux
-2. Artificial Intelligence_
+Each of the above devices has its own advantages.  
 
-</header>
+## Self-Hosting  
+### Self-hosting on Linux! 👋  
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-## Devices used
-1) Raspberry Pi
-2) Orange Pi 5 Plus with 16 GB RAM, 6 TOPS NPU Processor with really good hardware specs
-3) AWOW AK-10 Pro
-4) Intel Nuc 12 i5 with 32 GB RAM ( Self configured to complete PC from barebone)
+#### Why Self-Hosting?  
+I started with self-hosting after fiddling with Raspberry Pi 4. I validated multiple versions of Raspberry Pi 4.  
 
-   Each of the above devices have their own advantages.
+#### Multi-boot OS Loaders:  
+- NOOBS  
+- BerryBoot  
 
-## Self Hosting
+#### Operating Systems:  
+- Raspbian  
+- Debian  
+- Ubuntu  
+- DietPi  
+- Kali Linux  
+- Gentoo  
 
-_Selfhosting on linux"! :wave:_
+Each of these OSes has unique features. Considering resource utilization and ease of use, I finally settled on **DietPi**. This is one of my nodes where multiple servers are running.  
 
-**Why self hosting?**: I started with selfhosting after fiddling with Raspberry Pi4. Validated a number of Versions of Raspberry Pi4
-<br>: Muliboot OS Loaders: Noobs, Berry Boot
-<br>: Operating Systems: Raspbian, Debian, Ubuntu, Dietpi, Kali Linux, Gentoo. Each of these OS has some features and with resource utilization and ease of use, finally settled with Dietpi. This is one of my nodes where multiple servers are running.
+## Artificial Intelligence  
+### What is special?  
+Without any arguments, I acknowledge the learning I could gain from **Artificial Intelligence**.  
 
-## Artificial Intelligence
+In my case, I was able to learn and meet my objectives with AI quickly. This helped me reduce the time spent fixing issues.  
 
-**What is special?**: Without any arguements, i acknowledge the learning i could take from Aritificial Intelligence.
-In my case I was able to learn & meet my objectives with AI quickly. This helped me to reduce time spent for fixing stuff.
-
-
-Usecases:
-1.Writing Shell scripts for OS Automation
-2.Yaml file for deploying docker containers
-3.Setting up & automatically configuring multiple servers
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+### Use Cases:  
+- Writing **shell scripts** for OS automation  
+- YAML files for **deploying Docker containers**  
+- Setting up & automatically configuring **multiple servers**  
 
 ---
 
