@@ -62,13 +62,21 @@
    b) Better software support than orang pi, but not on par support & software comared to expensive nvidia GPUs<Br>
    c) Integrated GPUs consume less power, but also performance is slower compared to eGPU<Br>
 
-  ## **AI Inference**
-   a) AI programs currently use either C++ OR Python version.
-   I tried all the combinations. After a lot of hassles, I custom compiled Lllama.cpp using a vast amount of flags for compilation.
-   The following command assumes a number of supporting software installed for example C++ compiler, intel One API, Vulkan SDK, diagnositic sofware like vainfo, sycl-ls etc.
+  ## **AI Inference**  
 
-   # Run CMake with your configuration (Focus on proper MKL integration)
-   cmake .. \
+### **1️⃣ AI Software & Compilation Experience**  
+AI inference can be executed using **C++** or **Python** implementations. After testing various setups, I custom-compiled **Llama.cpp** with extensive optimization flags for enhanced performance.  
+
+The following **CMake command** requires pre-installed dependencies, including:  
+✅ C++ Compiler (e.g., `icx`, `icpx`)  
+✅ Intel OneAPI  
+✅ Vulkan SDK  
+✅ Diagnostic tools (`vainfo`, `sycl-ls`, etc.)  
+
+### **2️⃣ Custom Compilation Command (Llama.cpp)**
+```sh
+# Run CMake with optimized MKL integration  
+cmake .. \
     -DCMAKE_C_COMPILER=$(which icx) \
     -DCMAKE_CXX_COMPILER=$(which icpx) \
     -DGGML_NATIVE=ON \
@@ -100,15 +108,7 @@
     -DOpenCL_LIBRARY="/opt/intel/oneapi/compiler/2025.0/lib/libOpenCL.so.1" \
     -DCMAKE_VERBOSE_MAKEFILE=ON \
     -DGGML_USE_MKL=ON
-   b) Better software support than orang pi, but not on par support & software comared to expensive nvidia GPUs<Br>
-   c) Integrated GPUs consume less power, but also performance is slower compared to eGPU<Br>
-   d) Tried variety of image to text AI software:
-   Comfy UI, Invoke AI, Easy Diffusion, Automatic1111, Forge, Reforge
-   e) All in one AI: LocalAI
-   f) Image Upscaler : Upscayl
-   g) Intel AI Playground (Windows only), 
-   h) Intel AI Reference Models (https://github.com/intel/ai-reference-models)
-   i) AI Optimized intel IPEX LLM ( But not on par with custom compiled Llama.cpp)
+```
    
 
 ## **Extras**  
