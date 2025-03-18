@@ -142,4 +142,10 @@ cmake .. \
   - gstreamer  
   - ansible  
 
-  
+### Very important Tweak
+Like in Windows task manager, linux does not have a proper GPU monitor for non-nvidia cards. After a lot of struggle i managed to get a working version of a tool "Mission Center"
+![image](https://github.com/user-attachments/assets/7abf95fa-7972-4627-b60b-4e414c8ca415)
+
+In addition i used Gnome shell monitoring extensions to have an eye on CPU load & memory usage ( GPU not yet supported)
+![image](https://github.com/user-attachments/assets/ec8ed3cb-b752-4ce9-900b-d5df5fe0f207)
+
