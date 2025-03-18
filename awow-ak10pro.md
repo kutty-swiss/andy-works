@@ -1,11 +1,12 @@
-## Devices
-3) AWOW Ak10 Pro <Br>
+# **Devices**  
 
+## **AWOW AK10 Pro**  
 
-Case view<Br>
-<img src="https://m.media-amazon.com/images/I/61jd7fMGXHL._AC_SX679_.jpg" alt="Logo" width="700"> <Br>
+### **Case View**  
+<img src="https://m.media-amazon.com/images/I/61jd7fMGXHL._AC_SX679_.jpg" alt="AWOW AK10 Pro" width="700">  
 
-[More details here]((https://www.amazon.de/AWOW-AK10-Desktop-Computer-Ethernet/dp/B0D7L6V82N?th=1))
+🔗 [**More details here**](https://www.amazon.de/AWOW-AK10-Desktop-Computer-Ethernet/dp/B0D7L6V82N?th=1)  
+
 
 # AWOW AK10 Pro Specifications
 
