@@ -31,8 +31,8 @@ These tools help manage and utilize AI-generated files, enhance workflows, and i
 - **Efficient Resource Management**: After some learning, I figured out how to split the load between **CPU and GPU** using Vulkan, enhancing performance.  
 - **Favorite Feature - RAG**: LM Studio also integrates **RAG (Retrieval-Augmented Generation)**, making it incredibly useful for AI-based tasks.
 
-![LM Studio](https://lmstudio.ai/_next/static/media/lmstudio-app-logo.61cb7d80.webp)  
-  
+<img src="https://lmstudio.ai/_next/static/media/lmstudio-app-logo.61cb7d80.webp" alt="LM Studio Logo" width="300" height="200">  
+ 
 
 - **[Lamafile](https://github.com/lamafile/lamafile)**  
   An AI-optimized single cross platform file and management tool from mozilla, that streamlines the process of managing AI models and outputs.
