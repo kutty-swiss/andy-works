@@ -89,8 +89,15 @@ The Orange Pi features a **Rockchip RK3588 Processor** with a **3-Core NPU**, ea
   - [EZRKLLM Collection](https://huggingface.co/Pelochus/ezrkllm-collection)  
   - [Rockchip-Specific Models](https://huggingface.co/models?other=rockchip)  
 
-- **RKLLM** – Used for inferencing/running LLMs on Rockchip.  
+- **RKLLM** – Used for inferencing/running LLMs on Rockchip.  (Based on C++)
   ![RKLLM](https://github.com/user-attachments/assets/9ed9d0ba-c95a-4890-b77d-a39fea0fb864)  
+
+### **LLM Inference with Python & Web Interface**  
+
+RK3588 supports **LLM inference** using **Python** with a web-based GUI powered by **Gradio** or **Flask**. This enables easy interaction with models via a browser-friendly interface.  
+
+🔗 [**RKLLM Server Demo – GitHub Repository**](https://github.com/airockchip/rknn-llm/blob/main/examples/rkllm_server_demo/README.md)  
+
 
 - **RKNN Model Zoo** – Deployment examples for neural network models like object detection, image classification, etc.  
   🔗 [GitHub Repository](https://github.com/airockchip/rknn_model_zoo)  
