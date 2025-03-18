@@ -12,6 +12,17 @@ Observability is crucial for ensuring the health and performance of self-hosted 
 ## Purpose of the Tools:
 These tools work together to provide a comprehensive observability stack that helps monitor and visualize the health of your self-hosted environment.
 
+### **The Three Pillars of Observability**  
+
+Observability relies on **three key pillars** to provide a complete understanding of system health and performance:  
+
+- **Traces** track the flow of a request across multiple services, helping to identify bottlenecks, latency issues, and dependencies in distributed systems.  
+- **Metrics** provide numerical data on system performance (e.g., CPU usage, memory consumption, request rates), allowing for real-time monitoring and alerting.  
+- **Logs** capture detailed event records, storing contextual information about system activities, errors, and debugging insights.  
+
+For my **self-hosting setup**, I decided to focus solely on **metrics** and **dashboards** because they provide a lightweight and efficient way to monitor system performance without the added complexity of managing logs and traces. With **Grafana and Prometheus**, I can visualize key resource usage in real-time, ensuring optimal performance while keeping resource overhead minimal. 🚀  
+
+
 ```mermaid
 graph TD;
     A[System Metrics] -->|Collected By| B[Node Exporter];
