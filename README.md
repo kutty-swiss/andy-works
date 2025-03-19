@@ -46,6 +46,8 @@ In my case, I was able to learn and meet my objectives with AI quickly. This hel
 - YAML files for **deploying Docker containers**  
 - Setting up & automatically configuring **multiple servers**  
 
+I tried using some capabilities from the below list in my context (Even that is little, as AI keeps evolving!!! )
+
 ---
 ![alt text](image.png)
 </footer>
