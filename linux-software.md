@@ -61,13 +61,13 @@
 |--------------------------------------------------|---------------------------------------------------------------|------------------|----------|
 | `clinfo`                                         | Displays information about OpenCL platforms and devices.       | System Info      | `cmd034` |
 | `sy-ls`                                          | Lists available SYCL platforms and devices.                    | System Info      | `cmd035` |
-| `lspci | grep -i 'vga'`                           | Lists all PCI devices and filters for VGA (graphics) devices.  | Hardware Info    | `cmd036` |
-| `vulkaninfo | grep "deviceName"`                  | Shows Vulkan device information and filters for device name.   | Graphics Info    | `cmd037` |
-| `clinfo | grep "OpenCL"`                          | Filters OpenCL information from the `clinfo` output.           | System Info      | `cmd040` |
+| `lspci \| grep -i 'vga'`                           | Lists all PCI devices and filters for VGA (graphics) devices.  | Hardware Info    | `cmd036` |
+| `vulkaninfo \| grep "deviceName"`                  | Shows Vulkan device information and filters for device name.   | Graphics Info    | `cmd037` |
+| `clinfo \| grep "OpenCL"`                          | Filters OpenCL information from the `clinfo` output.           | System Info      | `cmd040` |
 | `zocl-ls`                                        | Lists available devices for the Zynq OpenCL runtime.           | System Info      | `cmd043` |
 | `vainfo`                                         | Displays information about VA-API (Video Acceleration API).    | Video Info       | `cmd044` |
 | `intel-opencl --check`                           | Checks the OpenCL runtime installation on Intel platforms.     | System Info      | `cmd045` |
-| `dmesg | grep i915`                              | Filters `dmesg` log output for Intel GPU (i915) information.   | System Info      | `cmd046` |
+| `dmesg \| grep i915`                              | Filters `dmesg` log output for Intel GPU (i915) information.   | System Info      | `cmd046` |
 
 
 

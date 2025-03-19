@@ -117,7 +117,19 @@ Intel’s **oneAPI** toolkit provides powerful tools for AI, ML, and deep learni
 
 ---
 
-## **9. Additional Resources for Intel AI and OpenVINO**
+## **9. Intel OpenVino Stable Diffusion Plugin for GIMP**
+
+This plugin provides a set of OpenVINO™ based tools that add AI features to GIMP, enabling you to leverage the power of Stable Diffusion directly within your image editing workflow. It serves as a reference code for how to make use of OpenVINO in GIMP for inferencing on Intel's CPU & GPU.  It is dedicated for GIMP 3, Python 3 and OpenVINO™.  The goal is to add AI to routine image editing tasks.
+
+I am very suprised with the speed of image generation.
+Local path where the downloaded models are saved: /home/andy/.local/share/openvino-ai-plugins-gimp/weights
+
+
+
+**[Plugin GitHub Repository](https://github.com/intel/openvino-ai-plugins-gimp/tree/main)**
+
+---
+## **10. Additional Resources for Intel AI and OpenVINO**
 
 Here are some more Intel-related links to dive deeper into specific AI technologies and model deployment.
 
