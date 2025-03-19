@@ -2,6 +2,20 @@
 
 ## **Orange Pi**  
 
+An **edge device** (e.g., Orange Pi) processes data locally, reducing **latency**, enhancing **real-time decision-making**, and improving **privacy** by minimizing cloud reliance.  
+
+### **Use Cases**  
+- **Fraud detection** (banking)  
+- **Voice-to-text** (customer service)  
+- **Predictive maintenance** (manufacturing)  
+- **Real-time monitoring** (healthcare)  
+
+### **Benefits**  
+✔ **Low power consumption**  
+✔ **Reduced bandwidth usage**  
+✔ **Faster response times**  
+✔ **Enhanced security** 
+
 ### **Board View (Top)**  
 
 

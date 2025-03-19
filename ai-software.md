@@ -90,12 +90,50 @@ AI tools focused on generating images, enhancing them, and applying diffusion mo
   <img src="https://dashboard.snapcraft.io/site_media/appmedia/2023/04/upscayl.png" width="200" height="200">  
 
 ## **4. AI Development Platforms**  
-Tools for running and experimenting with AI models, typically for developers looking to integrate or build upon existing AI frameworks.
+Tools for running and experimenting with AI models.  
 
-- **[Intel AI Playground (Windows)](https://www.intel.com/content/www/us/en/artificial-intelligence/ai-playground.html)**  
-  A Windows-based platform from Intel designed for experimenting with various AI models, optimized for Intel hardware.
+- **[Intel AI Playground](https://www.intel.com/content/www/us/en/artificial-intelligence/ai-playground.html) (Windows only)**  
+  Intel’s platform for AI model experimentation, optimized for Intel hardware.  
 
-    <img src="https://cdn.mos.cms.futurecdn.net/d8pmQi6W7Vfvp2w2EhkAtG-650-80.png.webp" width="400" height="200">  
+## **5. Practical AI Frameworks**  
 
-## **5. Key learnings**
-  Large language models consume lot of space. So i decided to have them in a common shared folder. Based on the tool type, i had to set the parameters in yaml files, export system variables or create symlinks.
+### **5.1 LangChain and RAG AI Tools**  
+[LangChain](https://www.langchain.com/) enables local **LLM applications** with **Retrieval-Augmented Generation (RAG)** for knowledge retrieval.  
+
+#### **Local RAG AI Tools**  
+- **[LlamaIndex](https://gpt-index.readthedocs.io/)** – Builds local AI knowledge bases.  
+- **[FAISS](https://github.com/facebookresearch/faiss)** – Efficient vector search for local AI queries.  
+- **[ChromaDB](https://github.com/chroma-core/chroma)** – Local vector database for RAG workflows.  
+
+### **5.2 OCR and Speech AI Tools**  
+
+#### **Optical Character Recognition (OCR) AI Tools**  
+- **[Tesseract OCR](https://github.com/tesseract-ocr/tesseract)** – Command-line OCR engine.  
+- **[OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)** – Adds OCR layers to PDFs locally.  
+- **[EasyOCR](https://github.com/JaidedAI/EasyOCR)** – Deep-learning OCR for local processing.  
+
+#### **Voice-to-Text and Text-to-Voice AI Tools**  
+
+##### **Speech-to-Text (STT) – Local Transcription**  
+- **[Whisper](https://github.com/openai/whisper)** – High-accuracy transcription.  
+- **[Vosk](https://alphacephei.com/vosk/)** – Lightweight offline speech recognition.  
+
+##### **Text-to-Speech (TTS) – Local Voice Synthesis**  
+- **[Coqui TTS](https://github.com/coqui-ai/TTS)** – Offline text-to-speech engine.  
+- **[Mimic 3](https://mycroft.ai/mimic3/)** – Fast local TTS synthesis.  
+
+## **6. AI Agents and Workflow Automation**  
+
+### **6.1 Local AI Agents**  
+Offline AI agents that automate tasks and decision-making.  
+
+- **[AutoGPT (offline mode)](https://github.com/Torantulino/Auto-GPT)** – Goal-oriented AI agent.  
+- **[BabyAGI (local)](https://github.com/yoheinakajima/babyagi)** – Task-based self-improving AI.  
+- **[LangChain Agents](https://python.langchain.com/docs/modules/agents/)** – Local automation with LLMs.  
+
+### **6.2 Local Workflow Automation (n8n & Others)**  
+[n8n](https://n8n.io/) – **Self-hosted** workflow automation tool with **local execution** of AI models.  
+
+## **7. Key learnings**  
+- Large language models consume a lot of space, so I store them in a **shared folder**.  
+- Depending on the tool, I configure it via **YAML files, system variables, or symlinks**.  
