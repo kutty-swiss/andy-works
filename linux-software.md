@@ -55,43 +55,72 @@
 | `dev.fredol.open-tv`        | Open-source IPTV player.                              |
 
 
-| Command       | Description                                      |
-|---------------|--------------------------------------------------|
-| `ls`          | Lists directory contents.                       |
-| `cd`          | Changes the current directory.                  |
-| `pwd`         | Prints the current working directory.           |
-| `cp`          | Copies files and directories.                   |
-| `mv`          | Moves or renames files and directories.         |
-| `rm`          | Removes files or directories.                   |
-| `cat`         | Displays the contents of a file.                |
-| `echo`        | Prints text to the terminal or a file.          |
-| `top`         | Displays real-time system processes.            |
-| `htop`        | Interactive process viewer (alternative to top).|
-| `df`          | Shows disk space usage.                         |
-| `du`          | Displays disk usage of files and directories.   |
-| `free`        | Displays memory usage.                          |
-| `ps`          | Lists running processes.                        |
-| `grep`        | Searches for patterns in files.                 |
-| `find`        | Searches for files and directories.             |
-| `ping`        | Tests network connectivity to a host.           |
-| `traceroute`  | Traces the route packets take to a host.         |
-| `ifconfig`    | Displays or configures network interfaces.       |
-| `netstat`     | Displays network connections and statistics.    |
-| `curl`        | Transfers data from or to a server.             |
-| `wget`        | Downloads files from the web.                   |
-| `tar`         | Archives files into a tarball.                  |
-| `zip`/`unzip` | Compresses or extracts zip files.               |
-| `chmod`       | Changes file permissions.                       |
-| `chown`       | Changes file ownership.                         |
-| `systemctl`   | Manages system services.                        |
-| `journalctl`  | Views system logs.                              |
-| `uptime`      | Displays system uptime.                         |
-| `whoami`      | Prints the current user.                        |
-| `uname`       | Displays system information.                    |
-| `dmesg`       | Prints kernel ring buffer messages.             |
-| `ssh`         | Connects to a remote machine via SSH.           |
-| `scp`         | Copies files between hosts over SSH.            |
-| `rsync`       | Synchronizes files and directories.             |
-| `alias`       | Creates shortcuts for commands.                 |
-| `history`     | Shows the command history.                      |
+## Special Linux Commands used for GPU / LLM inferencing
+
+| **Command**                                      | **Description**                                                 | **Group**        | **ID**   |
+|--------------------------------------------------|---------------------------------------------------------------|------------------|----------|
+| `clinfo`                                         | Displays information about OpenCL platforms and devices.       | System Info      | `cmd034` |
+| `sy-ls`                                          | Lists available SYCL platforms and devices.                    | System Info      | `cmd035` |
+| `lspci | grep -i 'vga'`                           | Lists all PCI devices and filters for VGA (graphics) devices.  | Hardware Info    | `cmd036` |
+| `vulkaninfo | grep "deviceName"`                  | Shows Vulkan device information and filters for device name.   | Graphics Info    | `cmd037` |
+| `clinfo | grep "OpenCL"`                          | Filters OpenCL information from the `clinfo` output.           | System Info      | `cmd040` |
+| `zocl-ls`                                        | Lists available devices for the Zynq OpenCL runtime.           | System Info      | `cmd043` |
+| `vainfo`                                         | Displays information about VA-API (Video Acceleration API).    | Video Info       | `cmd044` |
+| `intel-opencl --check`                           | Checks the OpenCL runtime installation on Intel platforms.     | System Info      | `cmd045` |
+| `dmesg | grep i915`                              | Filters `dmesg` log output for Intel GPU (i915) information.   | System Info      | `cmd046` |
+
+
+
+### Most used commands
+Note : I have removed basic commands from the list.
+
+
+| **Command**    | **Description**                                      | **Group**       | **ID**  |
+|----------------|------------------------------------------------------|-----------------|---------|
+| `echo`         | Prints text to the terminal or a file.               | Basic Commands  | `cmd001`|
+| `htop`         | Interactive process viewer (alternative to top).    | System Monitoring| `cmd002`|
+| `df`           | Shows disk space usage.                              | Disk Management | `cmd003`|
+| `du`           | Displays disk usage of files and directories.        | Disk Management | `cmd004`|
+| `free`         | Displays memory usage.                               | System Monitoring| `cmd005`|
+| `ps`           | Lists running processes.                             | System Monitoring| `cmd006`|
+| `grep`         | Searches for patterns in files.                      | Text Processing | `cmd007`|
+| `find`         | Searches for files and directories.                  | File Search     | `cmd008`|
+| `ping`         | Tests network connectivity to a host.                | Networking      | `cmd009`|
+| `traceroute`   | Traces the route packets take to a host.             | Networking      | `cmd010`|
+| `ifconfig`     | Displays or configures network interfaces.           | Networking      | `cmd011`|
+| `netstat`      | Displays network connections and statistics.         | Networking      | `cmd012`|
+| `curl`         | Transfers data from or to a server.                  | Networking      | `cmd013`|
+| `wget`         | Downloads files from the web.                        | Networking      | `cmd014`|
+| `tar`          | Archives files into a tarball.                       | File Management | `cmd015`|
+| `zip`/`unzip`  | Compresses or extracts zip files.                    | File Management | `cmd016`|
+| `chmod`        | Changes file permissions.                            | File Management | `cmd017`|
+| `chown`        | Changes file ownership.                              | File Management | `cmd018`|
+| `systemctl`    | Manages system services.                             | System Management| `cmd019`|
+| `journalctl`   | Views system logs.                                   | System Monitoring| `cmd020`|
+| `uptime`       | Displays system uptime.                              | System Monitoring| `cmd021`|
+| `whoami`       | Prints the current user.                             | Basic Commands  | `cmd022`|
+| `uname`        | Displays system information.                         | System Info     | `cmd023`|
+| `dmesg`        | Prints kernel ring buffer messages.                  | System Monitoring| `cmd024`|
+| `ssh`          | Connects to a remote machine via SSH.                | Networking      | `cmd025`|
+| `scp`          | Copies files between hosts over SSH.                 | Networking      | `cmd026`|
+| `rsync`        | Synchronizes files and directories.                  | File Management | `cmd027`|
+| `alias`        | Creates shortcuts for commands.                      | Basic Commands  | `cmd028`|
+| `history`      | Shows the command history.                           | Basic Commands  | `cmd029`|
+| `id`           | Prints user and group information.                   | User Info       | `cmd030`|
+| `groups`       | Displays the groups a user is a member of.           | User Info       | `cmd031`|
+| `sudo -i`     | Switches to root mode (interactive shell).          | System Management | `cmd032`|
+| `export`      | Sets environment variables in the current session.  | Environment Setup | `cmd033`|
+
+
+
+
+
+
+
+
+
+
+
+
+
 
