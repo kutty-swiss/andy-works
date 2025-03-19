@@ -63,7 +63,7 @@ make -j$(nproc)
 
 ---
 
-## Sample Inference Commands
+## Sample Inference Commands with 3 types of GPU based backends
 
 ### Fastest: Vulkan
 ```bash
