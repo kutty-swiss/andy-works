@@ -6,7 +6,10 @@
 <img src="https://m.media-amazon.com/images/I/71fNE6IX3iL._AC_UF894,1000_QL80_.jpg" alt="Orange Pi Board" width="700">  
 
 ### **Case View**  
-<img src="https://www.tinytronics.nl/image/cache/catalog/products_2024/orange-pi-5-plus-metal-case-with-antennas-model-600x600w.jpg" alt="Orange Pi Case">  
+<img src="http://www.orangepi.org/img/zero2W/0911-plus5-img08.png" alt="Orange Pi Case">  
+
+<img src="http://www.orangepi.org/img/zero2W/0911-plus5-img09.png" alt="Orange Pi Case">  
+
 
 🔗 [**More details here**](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)  
 
