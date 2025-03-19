@@ -10,9 +10,9 @@
 
 ### **Case View**  
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 🔗 [**More details here**](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)  
 
