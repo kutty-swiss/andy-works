@@ -6,11 +6,8 @@
 | **GGUF** | A specialized file format designed for efficient storage and loading of large language models, often used in optimized inference workflows. |
 | **ONNX** | An open format for representing machine learning models, enabling interoperability between frameworks. |
 | **BIN** | Commonly used for Intel IPEX-optimized LLMs, storing binary data for efficient inference. |
-| **RKLLM** | A format tailored for specific runtime-optimized LLMs, ensuring compatibility with specialized hardware or software stacks. |
-| **JSON** | Frequently used for model configuration, training data, or output results due to its lightweight and structured format. |
-| **YAML** | Preferred for configuration files because of its readability and support for complex data structures. |
-| **TXT** | Utilized for plain text datasets or prompts, offering simplicity and wide compatibility. |
-| **CSV** | Commonly used for tabular datasets, making it easy to organize and preprocess structured data. |
+| **RKLLM** | A format tailored for specific runtime-optimized LLMs, ensuring compatibility with specialized hardware or software stacks in Rockchip based devices like Orange Pi 5 Plus. |
+
 
 These filetypes are essential for managing various aspects of large language models (LLMs), from training to deployment.
 
