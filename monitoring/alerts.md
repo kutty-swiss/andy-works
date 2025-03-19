@@ -11,6 +11,9 @@
 - **Slack**: Integration with Slack for real-time notifications.
 - **SMS**: Critical alerts will also be sent via SMS.
 
+For my work, we configured via rest api for the notification channels rocket chat and MS teams.
+
+
 ### Tools to Use
 - **Prometheus**: For monitoring and alerting.
 - **Grafana**: For visualization and alert configuration.
