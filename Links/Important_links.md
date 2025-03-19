@@ -17,3 +17,32 @@ https://huggingface.co/docs/diffusers/v0.12.0/en/stable_diffusion
 
 
 https://github.com/intel/AI-PC_Notebooks/blob/main/LLM/01_native_gpu.ipynb
+
+
+
+Very important finding:
+
+To compare the package lists between your venv and system-wide Python environments and apply the venv packages to your system-wide Python, follow these steps:
+
+List packages in the venv:
+Activate your venv and run:
+
+pip freeze > venv_requirements.txt
+List packages in the system-wide Python:
+Deactivate the venv and run:
+
+pip freeze > system_requirements.txt
+Compare the two files:
+You can use a diff tool or simply view both files to identify differences.
+
+Install missing packages in the system-wide Python:
+
+pip install -r venv_requirements.txt
+
+Alignment with Venv:
+If there are still discrepancies between your system-wide Python and the venv, you can generate a requirements file from the venv and apply it to the system-wide Python:
+
+bash
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
