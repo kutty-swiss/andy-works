@@ -46,3 +46,24 @@ bash
 pip freeze > requirements.txt
 pip install -r requirements.txt
 
+https://github.com/openvinotoolkit/openvino.genai/tree/master/samples/python/image_generation
+
+
+Very important:
+https://github.com/openvinotoolkit/openvino.genai?tab=readme-ov-file#openvino-genai-samples
+
+#Download and convert to OpenVINO dreamlike-anime-1.0 model
+optimum-cli export openvino --model dreamlike-art/dreamlike-anime-1.0 --weight-format fp16 dreamlike_anime_1_0_ov/FP16
+
+#You can also use INT8 hybrid quantization to further optimize the model and reduce inference latency
+optimum-cli export openvino --model dreamlike-art/dreamlike-anime-1.0 --weight-format int8 --dataset conceptual_captions dreamlike_anime_1_0_ov/INT8
+
+https://github.com/openvinotoolkit/openvino.genai/raw/master/src/docs/openvino_genai.svg
+
+
+https://github.com/openvinotoolkit/openvino_notebooks/tree/latest/notebooks/stable-diffusion-text-to-image
+
+https://user-images.githubusercontent.com/29454499/260981188-c112dd0a-5752-4515-adca-8b09bea5d14a.png
+
+
+https://docs.openvino.ai/2025/openvino-workflow-generative/inference-with-optimum-intel.html
