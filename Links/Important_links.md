@@ -82,3 +82,11 @@ python -m pip install torch==2.5.1+cxx11.abi torchvision==0.20.1+cxx11.abi torch
 
 Sanity Test
 python -c "import torch; import intel_extension_for_pytorch as ipex; print(torch.__version__); print(ipex.__version__); [print(f'[{i}]: {torch.xpu.get_device_properties(i)}') for i in range(torch.xpu.device_count())];"
+
+
+Ensure All Required Libraries Are Installed
+Make sure you have Intel oneAPI Level-Zero and OpenCL runtimes installed, as they are critical for GPU operations. Run:
+
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install intel-oneapi-runtime-compilers intel-oneapi-runtime-opencl intel-level-zero-gpu
