@@ -21,6 +21,8 @@ bash
 pip freeze > requirements.txt
 pip install -r requirements.txt
 
+pip list
+
 
 Stress Testing XPU Performance
 
@@ -81,4 +83,66 @@ source /home/andy/ComfyUI/venv/bin/activate
 source /home/andy/stable-diffusion-webui/Automatic1111_env/bin/activate
 source /home/andy/Easy-Diffusion-Linux/easy-diffusion/installer_files/env/bin/activate
 
+source /snap/openvino-ai-plugins-gimp/current/bin/activate
 
+(install) andy@ak10pro:~/Documents$ pip freeze > openvino_gimp_requirements.txt
+(install) andy@ak10pro:~/Documents$ source /snap/openvino-ai-plugins-gimp/current/bin/activate
+(install) andy@ak10pro:~/Documents$ python cpuVsXpu.py 
+Torch Version: 2.5.1+cxx11.abi
+CPU Time: 0.034555912017822266
+XPU Time: 0.11891007423400879
+Speedup: 0.29x 🚀
+
+---------------------------------------------
+
+
+
+(install) andy@ak10pro:~/Documents$ find ~/ -type f -name "activate" 2>/dev/null
+
+/home/andy/.local/share/uv/python/cpython-3.11.11-linux-x86_64-gnu/lib/python3.11/venv/scripts/common/activate
+/home/andy/.pyenv/versions/3.9.13/envs/venv-stablediffusion/bin/activate
+/home/andy/.pyenv/versions/3.9.13/lib/python3.9/venv/scripts/common/activate
+/home/andy/.pyenv/shims/activate
+/home/andy/.pyenv/plugins/pyenv-virtualenv/shims/activate
+
+/home/andy/miniconda3/envs/easy_diffusion/lib/python3.10/venv/scripts/common/activate
+/home/andy/miniconda3/envs/stable-diffusion-ui-installer/bin/activate
+/home/andy/miniconda3/envs/stable-diffusion-ui-installer/lib/python3.12/venv/scripts/common/activate
+/home/andy/miniconda3/envs/stable-diffusion-ui-installer/lib/python3.12/site-packages/conda/shell/bin/activate
+/home/andy/miniconda3/bin/activate
+/home/andy/miniconda3/lib/python3.12/venv/scripts/common/activate
+/home/andy/miniconda3/lib/python3.12/site-packages/conda/shell/bin/activate
+/home/andy/miniconda3/pkgs/python-3.10.16-he870216_1/lib/python3.10/venv/scripts/common/activate
+/home/andy/miniconda3/pkgs/conda-25.1.1-py312h06a4308_0/bin/activate
+/home/andy/miniconda3/pkgs/conda-25.1.1-py312h06a4308_0/lib/python3.12/site-packages/conda/shell/bin/activate
+/home/andy/miniconda3/pkgs/python-3.12.9-h5148396_0/lib/python3.12/venv/scripts/common/activate
+
+/home/andy/Easy-Diffusion-Linux/easy-diffusion/installer_files/mamba/pkgs/python-3.8.5-h1103e12_9_cpython/lib/python3.8/venv/scripts/common/activate
+/home/andy/Easy-Diffusion-Linux/easy-diffusion/installer_files/mamba/pkgs/conda-23.9.0-py38h578d9bd_2/bin/activate
+/home/andy/Easy-Diffusion-Linux/easy-diffusion/installer_files/mamba/pkgs/conda-23.9.0-py38h578d9bd_2/lib/python3.8/site-packages/conda/shell/bin/activate
+/home/andy/Easy-Diffusion-Linux/easy-diffusion/installer_files/env/bin/Activate
+/home/andy/Easy-Diffusion-Linux/easy-diffusion/installer_files/env/lib/python3.8/site-packages/conda/shell/bin/activate
+/home/andy/.venv/bin/activate
+
+pip freeze > openvino_gimp_requirements.txt
+----------------------------------------------------------------------------------------------
+/home/andy/Easy-Diffusion-Linux/easy-diffusion/installer_files/env/lib/python3.8/venv/scripts/common/activate
+/home/andy/ComfyUI/venv/bin/activate
+/home/andy/stable-diffusion-webui/Automatic1111_env/bin/activate
+/home/andy/stable-diffusion-webui-forge/venv/bin/activate
+/home/andy/stable-diffusion-reforge/venv/bin/activate
+/snap/openvino-ai-plugins-gimp/current/bin/activate
+
+/home/andy/openvino_env/bin/activate
+/home/andy/llm-cpp/bin/activate
+
+System pytorch ok : best-genai-openvino-pytorch-xpu-requirements.txt
+openvino pytorch ok: openvino_requirements.txt
+easy-diffusion_requirements.txt
+comfyui_requirements.txt
+Automatic1111_requirements.txt
+forge_requirements.txt
+reforge_requirements.txt
+openvino_gimp_requirements.txt
+
+ipexllm_requirements.txt
