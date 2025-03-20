@@ -67,3 +67,18 @@ CPU Time: 18.95138144493103
 ... 
 XPU Time: 0.20033788681030273
 >>> 
+
+
+----------------------
+find ~/ -type f -name "activate" 2>/dev/null
+
+
+
+
+source /home/andy/stable-diffusion-webui-forge/venv/bin/activate
+source /home/andy/stable-diffusion-reforge/venv/bin/activate
+source /home/andy/ComfyUI/venv/bin/activate
+source /home/andy/stable-diffusion-webui/Automatic1111_env/bin/activate
+source /home/andy/Easy-Diffusion-Linux/easy-diffusion/installer_files/env/bin/activate
+
+
