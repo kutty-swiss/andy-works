@@ -4,6 +4,11 @@ This page contains useful links and resources related to **Intel AI**, **OpenVIN
 
 ---
 
+![Intel AI](https://www.intel.com/content/dam/developer/articles/technical/introducing-intel-extension-for-pytorch-for-gpus/f1-ipex-xpu-architecture.jpg)
+
+https://www.intel.com/content/www/us/en/developer/articles/technical/introducing-intel-extension-for-pytorch-for-gpus.html
+
+
 ## **1. Intel Driver Installation & Setup**
 
 These resources will help you download and install the latest drivers for Intel hardware, including CPUs, GPUs, and accelerators.
@@ -121,12 +126,13 @@ Intel’s **oneAPI** toolkit provides powerful tools for AI, ML, and deep learni
 
 This plugin provides a set of OpenVINO™ based tools that add AI features to GIMP, enabling you to leverage the power of Stable Diffusion directly within your image editing workflow. It serves as a reference code for how to make use of OpenVINO in GIMP for inferencing on Intel's CPU & GPU.  It is dedicated for GIMP 3, Python 3 and OpenVINO™.  The goal is to add AI to routine image editing tasks.
 
-I am very suprised with the speed of image generation.
-Local path where the downloaded models are saved: /home/andy/.local/share/openvino-ai-plugins-gimp/weights
-
-
+For details refer to : https://github.com/intel/openvino-ai-plugins-gimp/blob/main/README.md
 
 **[Plugin GitHub Repository](https://github.com/intel/openvino-ai-plugins-gimp/tree/main)**
+
+I am very positively suprised with the speed of image generation.
+Local path where the downloaded models are saved: /home/andy/.local/share/openvino-ai-plugins-gimp/weights
+
 
 ---
 ## **10. Additional Resources for Intel AI and OpenVINO**

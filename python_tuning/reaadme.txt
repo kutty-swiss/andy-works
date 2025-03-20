@@ -146,3 +146,58 @@ reforge_requirements.txt
 openvino_gimp_requirements.txt
 
 ipexllm_requirements.txt
+
+------------------------------------------------------------------------------------------------------
+deactivate
+rm -rf ~/test-env
+python3 -m venv ~/test-env
+source ~/test-env/bin/activate
+pip install --upgrade pip
+source /opt/intel/oneapi/setvars.sh
+export SYCL_CACHE_PERSISTENT=1
+------------------------------------------------------------------------------------------------------
+STEP 1:
+======
+pip install --pre --upgrade ipex-llm[xpu] --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
+    Installing collected packages: tcmlib, sentencepiece, py-cpuinfo, mpmath, ipex-llm, bigdl-core-xe-batch-21, bigdl-core-xe-addons-21, bigdl-core-xe-21, urllib3, umf, typing-extensions, tqdm, tabulate, sympy, safetensors, regex, pyyaml, psutil, protobuf, pillow, packaging, numpy, networkx, MarkupSafe, idna, fsspec, filelock, charset-normalizer, certifi, annotated-types, typing-inspection, requests, pydantic-core, jinja2, intel-cmplr-lib-ur, 
+    torch, pydantic, intel-openmp, huggingface-hub, torchvision, tokenizers, intel-extension-for-pytorch, accelerate, transformers
+
+
+------------------------------------------------------------------------------------------------------
+STEP 2:
+=======
+
+https://docs.openvino.ai/2025/get-started/install-openvino/install-openvino-pip.html
+
+python -m pip install --pre -U openvino openvino-tokenizers --extra-index-url https://storage.openvinotoolkit.org/simple/wheels/nightly
+    Installing collected packages: openvino-telemetry, packaging, numpy, openvino, openvino-tokenizers
+
+
+Examples:
+https://github.com/openvinotoolkit/openvino_notebooks/tree/latest/notebooks/stable-diffusion-v2
+
+......................................................................................................
+STEP 3: How to install intel pytorch:
+=======
+https://pytorch-extension.intel.com/installation?platform=gpu&version=v2.6.10%2Bxpu&os=linux%2Fwsl2&package=pip
+
+
+python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/xpu
+    Installing collected packages: tcmlib, mpmath, intel-pti, intel-cmplr-lic-rt, intel-cmplr-lib-rt, umf, typing-extensions, sympy, pillow, packaging, numpy, networkx, MarkupSafe, fsspec, filelock, pytorch-triton-xpu, jinja2, intel-cmplr-lib-ur, intel-sycl-rt, torch, torchvision, torchaudio
+
+
+python -m pip install intel-extension-for-pytorch==2.6.10+xpu oneccl_bind_pt==2.6.0+xpu --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
+    Installing collected packages: tcmlib, oneccl_bind_pt, intel-cmplr-lic-rt, intel-cmplr-lib-rt, impi-rt, umf, typing-extensions, tbb, ruamel.yaml.clib, psutil, packaging, numpy, impi-devel, annotated-types, ruamel.yaml, pydantic-core, intel-opencl-rt, intel-cmplr-lib-ur, pydantic, intel-sycl-rt, intel-openmp, oneccl, mkl, dpcpp-cpp-rt, onemkl-sycl-vm, onemkl-sycl-stats, onemkl-sycl-rng, onemkl-sycl-dft, onemkl-sycl-datafitting, onemkl-sycl-blas, oneccl-devel, onemkl-sycl-sparse, onemkl-sycl-lapack, mkl-dpcpp, intel-extension-for-pytorch
+
+
+(test-env) andy@ak10pro:~$ pip check
+No broken requirements found.
+(test-env) andy@ak10pro:~$ python -m pip install intel-extension-for-pytorch==2.6.10+xpu oneccl_bind_pt==2.6.0+xpu --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
+
+
+
+pip install --upgrade torchvision
+pip install --upgrade torchaudio
+
+pip check
+pip list......................................................................................................
