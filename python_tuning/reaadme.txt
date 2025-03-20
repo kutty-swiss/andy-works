@@ -20,3 +20,50 @@ If there are still discrepancies between your system-wide Python and the venv, y
 bash
 pip freeze > requirements.txt
 pip install -r requirements.txt
+
+
+Stress Testing XPU Performance
+
+import torch
+import time
+
+size = 10000  # Increase size
+
+# CPU Test
+cpu_tensor = torch.randn(size, size, device="cpu")
+start = time.time()
+cpu_result = cpu_tensor @ cpu_tensor
+print("CPU Time:", time.time() - start)
+
+# XPU Test
+if torch.xpu.is_available():
+    xpu_tensor = cpu_tensor.to("xpu")
+    start = time.time()
+    xpu_result = xpu_tensor @ xpu_tensor
+    print("XPU Time:", time.time() - start)
+
+
+-----------------
+Results:
+
+>>> import torch
+>>> import time
+>>> 
+>>> size = 10000  # Increase size
+>>> 
+>>> # CPU Test
+>>> cpu_tensor = torch.randn(size, size, device="cpu")
+>>> start = time.time()
+>>> cpu_result = cpu_tensor @ cpu_tensor
+>>> print("CPU Time:", time.time() - start)
+CPU Time: 18.95138144493103
+>>> 
+>>> # XPU Test
+>>> if torch.xpu.is_available():
+...     xpu_tensor = cpu_tensor.to("xpu")
+...     start = time.time()
+...     xpu_result = xpu_tensor @ xpu_tensor
+...     print("XPU Time:", time.time() - start)
+... 
+XPU Time: 0.20033788681030273
+>>> 
