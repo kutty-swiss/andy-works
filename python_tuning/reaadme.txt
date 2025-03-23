@@ -264,3 +264,19 @@ True
 
 dpkg -l | grep intel
 
+example of how to use -f switch in pip
+
+pip uninstall torch torchvision torchaudio -y # Ensure clean slate
+andy@ak10pro:~/OpenVino-CodeSamples$ pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+
+----
+ComfyUI upgrade
+deactivate
+rm -rf venv/
+python3 -m venv venv
+pip install -r requirements.txt
+python main.py --lowvram  
+source venv/bin/activate
+pip install --upgrade -r requirements.txt
+python main.py --lowvram  
