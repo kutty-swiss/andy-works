@@ -280,3 +280,45 @@ python main.py --lowvram
 source venv/bin/activate
 pip install --upgrade -r requirements.txt
 python main.py --lowvram  
+
+
+
+pip install --force-reinstall "mkl-dpcpp==2025.0.1"
+andy@ak10pro:~/Downloads/squashfs-root$ python -c "import torch;import intel_extension_for_pytorch as ipex;print(ipex.xpu.get_device_name(0))"
+
+
+
+----------------------------------------------------------------------------------------------
+/home/andy/Easy-Diffusion-Linux/easy-diffusion/installer_files/env/lib/python3.8/venv/scripts/common/activate
+/home/andy/ComfyUI/venv/bin/activate
+/home/andy/stable-diffusion-webui/Automatic1111_env/bin/activate
+/home/andy/stable-diffusion-webui-forge/venv/bin/activate
+/home/andy/stable-diffusion-reforge/venv/bin/activate
+/snap/openvino-ai-plugins-gimp/current/bin/activate
+
+(invoke) andy@ak10pro:~$ source /home/andy/.venv/bin/activate
+
+
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?packages=oneapi-toolkit&oneapi-toolkit-os=linux&oneapi-lin=apt
+pip install mkl mkl-devel mkl-dpcpp onemkl-sycl-blas onemkl-sycl-lapack onemkl-sycl-sparse
+
+
+
+
+
+
+
+Toi fix error while launcing auto111 with use ipx:
+
+
+from typing import Union
+def is_xpu_device(device: Union[str, torch.device] = None):
+
+
+Do not add #source /opt/intel/openvino_2025.0.0/setupvars.sh to the bashrc file. It is causing conflicts.
+
+Run the commands
+(base) andy@ak10pro:~$ env | grep -i openvino
+(base) andy@ak10pro:~$ echo $PYTHONPATH
+
+
