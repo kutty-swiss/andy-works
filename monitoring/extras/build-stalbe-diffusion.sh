@@ -41,3 +41,7 @@ cmake .. -DSD_SYCL=ON -DSD_VULKAN=ON -DGGML_OPENBLAS=ON -DCMAKE_C_COMPILER=icx -
 cmake --build . --config Release -j$(nproc)
 
 echo "Build completed successfully!"
+echo "Run options: https://github.com/leejet/stable-diffusion.cpp"
+echo "Sample SyCL Run :  ~/stable-diffusion.cpp/build/bin/sd -m /home/andy/models/image-models/stable-diffusion/dreamshaper_8.safetensors --cfg-scale 5 --steps 5 --sampling-method euler -H 512 -W 512 --seed 42 -p "a realistic forest" --output /home/andy/output.png --rng std_default --verbose --vae-tiling " 
+#--diffusion-fa --verbose 
+echo "to tun Vulkan : export SYCL_DEVICE_FILTER=gpu export SYCL_GPU_BACKEND=vulkan "
