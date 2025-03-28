@@ -322,3 +322,5 @@ Run the commands
 (base) andy@ak10pro:~$ echo $PYTHONPATH
 
 
+import torch
+print(torch.xpu.memory_summary())
