@@ -9,6 +9,7 @@ export CMAKE_CXX_COMPILER=icpx
 
 # Set oneDNN (DNNL) path if needed
 export DNNL_DIR=/opt/intel/oneapi/dnnl/latest
+export TBB_DIR=/opt/intel/oneapi/tbb/latest
 export CMAKE_PREFIX_PATH=$DNNL_DIR:$CMAKE_PREFIX_PATH
 
 # Clone the stable-diffusion.cpp repository if it doesn't exist
@@ -33,8 +34,8 @@ mkdir -p build
 cd build
 
 # Run CMake configuration with SYCL, Vulkan, and OpenBLAS support
-cmake .. -DSD_SYCL=ON -DSD_VULKAN=ON -DGGML_OPENBLAS=ON \
-         -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx
+cmake .. -DSD_SYCL=ON -DSD_VULKAN=ON -DGGML_OPENBLAS=ON -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx  -DINTEL_MKL_DIR=/opt/intel/oneapi/mkl/latest -DTBB_DIR=/opt/intel/oneapi/tbb/latest
+
 
 # Build the project using all available CPU cores
 cmake --build . --config Release -j$(nproc)
