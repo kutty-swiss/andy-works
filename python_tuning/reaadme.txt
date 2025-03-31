@@ -302,6 +302,7 @@ andy@ak10pro:~/Downloads/squashfs-root$ python -c "import torch;import intel_ext
 https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?packages=oneapi-toolkit&oneapi-toolkit-os=linux&oneapi-lin=apt
 pip install mkl mkl-devel mkl-dpcpp onemkl-sycl-blas onemkl-sycl-lapack onemkl-sycl-sparse
 
+pip install --force-reinstall 'https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_multi-backend-refactor/bitsandbytes-0.44.1.dev0-py3-none-manylinux_2_24_x86_64.whl'
 
 
 

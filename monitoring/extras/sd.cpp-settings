@@ -1,0 +1,7 @@
+~/stable-diffusion.cpp/sd -m /home/andy/models/image-models/stable-diffusion/dreamshaper_8.safetensors --cfg-scale 7.5 --steps 20 --sampling-method dpm++2m -H 512 -W 512 -p "a designer building with blue morning sky view.  architectural photography, f/12, luxury, aesthetically pleasing form and function." --output /home/andy/output.png --rng std_default --verbose --color -t 4 -n "painting, digital art. sketch, blurry" --seed 3163416539
+
+
+
+
+
+
