@@ -26,7 +26,7 @@ NEGATIVE_PROMPT = (
 )
 
 
-def generate_unique_filename(base_dir="~/Pictures", base_name="openvino_generated_image", seed=None, extension=".bmp"):
+def generate_unique_filename(base_dir="~/Pictures", base_name="openvino_genai_generated_image", seed=None, extension=".png"):
     """
     Generate a unique filename by appending the seed to the base name.
     """
