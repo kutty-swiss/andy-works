@@ -36,7 +36,7 @@ Filesharing was already supported by my router, but with sharing via pc it has m
 Each of these OSes has unique features. Considering resource utilization and ease of use, I finally settled on **DietPi**. This is one of my nodes where multiple servers are running.  
 
 ## Artificial Intelligence  
-### WhWhy it is special for me?  
+### Why it is special for me?  
 With evolving related technologies, **Artificial Intelligence**.definitely impacted my learnings in a positive way.
 
 In my case, I was able to learn and meet my objectives with AI quickly. This helped me reduce the time spent fixing issues.  
