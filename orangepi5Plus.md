@@ -131,5 +131,5 @@ cat /sys/kernel/debug/rknpu/load
 
 
 ## **Demo: RK3588 Running Stable Diffusion Variant**  
-A demonstration of the RK3588 running an **NPU-accelerated Stable Diffusion 1.5 LCM** on a **$130 SBC**, achieving **30 iterations per second**.  
+A demonstration of the RK3588 running an **NPU-accelerated Stable Diffusion 1.5 LCM** on a **$130 SBC**, achieving **30 iterations per second**.  (From another user)
 🔗 [View the demo on Reddit](https://www.reddit.com/r/StableDiffusion/comments/1gxbwp1/npu_accelerated_sd15_lcm_on_130_rk3588_sbc_30/?rdt=55368)  
